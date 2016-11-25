@@ -1,5 +1,9 @@
 <?PHP
 session_start();
+echo "OKOK";
+
+
+
 if(isset($_COOKIE) && count($_COOKIE) >0 ){
 	print_r($_COOKIE);
 }
