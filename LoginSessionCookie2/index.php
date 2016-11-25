@@ -1,12 +1,15 @@
 <?PHP
 session_start();
-print_r("adalberto");
+///echo "OKOK";
+///echo "OKOK";
+
+
 if(isset($_COOKIE) && count($_COOKIE) >0 ){
 	print_r($_COOKIE);
 }
 if(isset($_SESSION) && count($_SESSION) >0){
 	print_r($_SESSION);
-	
+
 }
 
 
