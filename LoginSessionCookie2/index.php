@@ -1,6 +1,6 @@
 <?PHP
 session_start();
-
+print_r("adalberto");
 if(isset($_COOKIE) && count($_COOKIE) >0 ){
 	print_r($_COOKIE);
 }
